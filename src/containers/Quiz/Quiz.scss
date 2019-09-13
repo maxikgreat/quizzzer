@@ -1,0 +1,23 @@
+$colorForGradient1: #5041b2;
+$colorForGradient2: #7969e6;
+
+$fullGradient: linear-gradient(90deg, $colorForGradient1 0%, $colorForGradient2 100%);
+
+
+.Quiz {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  flex-grow: 1;
+  width: 100%;
+  background: $fullGradient;
+
+    h1{
+      color: #fff;
+      margin-left: 10px;
+    }
+}
+
+.QuizWrapper {
+  width: 600px;
+}

@@ -1,0 +1,24 @@
+.OverError {
+
+    position: absolute;
+    top: 20%;
+    left:50%;
+    text-align: center;
+    color: red;
+    border: 2px solid red;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 20px;
+    text-transform: uppercase;
+    background-color: white;
+    transform: translate(-50%, -50%);
+    
+    h3{
+        text-decoration: none;
+        font-size: 20px;
+        
+    }
+    span{
+        font-size: 14px;
+    }
+}
