@@ -1,2 +1,0 @@
-# quizzzer
-Quizer on React
